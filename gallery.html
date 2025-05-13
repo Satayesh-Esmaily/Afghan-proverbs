@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Afghan Proverb Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #F1DEC9;
+      color: #4a3f2a;
+    }
+
+    header {
+      background-color: #8D7B68;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #A4907C;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.7rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #8D7B68;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .proverb-card {
+      background-color: white;
+      border: 2px solid #C8B6A6;
+      border-radius: 12px;
+      padding: 1rem;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .proverb-card:hover {
+      background-color: #ECEFCA;
+      transform: scale(1.02);
+    }
+
+    footer {
+      background-color: #8D7B68;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Afghan Proverbs Gallery</h1>
+    <p>Collection of Traditional Wisdom</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+  </nav>
+
+  <div class="container">
+    <h2>Proverbs Collection</h2>
+    <div class="grid">
+
+      <div class="proverb-card">
+        <strong>۱. از کوزه همان برون تراود که در اوست</strong><br>
+        <em>You get out of a jug what is inside it.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۲. قطره قطره دریا می‌شود</strong><br>
+        <em>Drop by drop makes a river.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۳. مار گزیده از ریسمان سیاه می‌ترسد</strong><br>
+        <em>One bitten by a snake fears even a black rope.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۴. نیکی کن و در دجله انداز</strong><br>
+        <em>Do good and throw it in the river.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۵. سیلی نقد به از حلوای نسیه</strong><br>
+        <em>A slap today is better than a promise of sweets tomorrow.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۶. تا نباشد چیزکی مردم نگویند چیزها</strong><br>
+        <em>There must be something behind every rumor.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۷. شتر در خواب بیند پنبه دانه</strong><br>
+        <em>The camel dreams of cottonseed.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۸. هر که بامش بیش برفش بیشتر</strong><br>
+        <em>The higher your roof, the more snow you bear.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۹. هر چه سنگ است مال پای لنگ است</strong><br>
+        <em>All the stones hit the lame foot.</em>
+      </div>
+
+      <div class="proverb-card">
+        <strong>۱۰. دوغ را دوغ نگه می‌دارد نه مشک</strong><br>
+        <em>It’s the yogurt that preserves itself, not the skin bottle.</em>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Afghan Proverbs. All rights reserved.
+  </footer>
+
+</body>
+</html>
